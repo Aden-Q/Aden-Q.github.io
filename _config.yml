@@ -116,6 +116,7 @@ theme_config:
     projects: https://github.com/Aden-Q
     tag: /tags/
     category: /categories/
+    search: /search/
 
   # show only the 5 most recent posts
   posts_overview:
@@ -143,3 +144,9 @@ theme_config:
     shortname: lyrics-zc
 
   highlight: atelier-forest-dark
+
+  # Customize the copyright years
+  # Note: if start_year/end_year not provided, will use current year.
+  copyright:
+    start_year: 2023
+    end_year:
