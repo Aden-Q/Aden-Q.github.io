@@ -130,16 +130,16 @@ theme_config:
     icon: github
     link: https://github.com/Aden-Q
 
-  # Enable or disable the RSS feed.
-  rss:
+  # # Enable or disable the RSS feed.
+  # rss:
 
-  # Enable MathJax support for Latex
-  mathjax:
-    enabled: true
+  # # Enable MathJax support for Latex
+  # mathjax:
+  #   enabled: true
 
-  # Fill in your Disqus Comments Shortname to enable Disqus comments.
-  disqus:
-    enabled: true
-    shortname: lyrics-zc
+  # # Fill in your Disqus Comments Shortname to enable Disqus comments.
+  # disqus:
+  #   enabled: true
+  #   shortname: lyrics-zc
 
-  highlight: atelier-forest-dark
+  # highlight: atelier-forest-dark
