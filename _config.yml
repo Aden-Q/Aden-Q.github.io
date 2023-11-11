@@ -150,3 +150,5 @@ theme_config:
   copyright:
     start_year: 2023
     end_year:
+
+  rss:
