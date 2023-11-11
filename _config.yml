@@ -114,6 +114,8 @@ theme_config:
     about: /about/
     articles: /archives/
     projects: https://github.com/Aden-Q
+    tag: /tags/
+    category: /categories/
 
   # show only the 5 most recent posts
   posts_overview:
