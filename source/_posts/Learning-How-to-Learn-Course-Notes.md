@@ -59,7 +59,66 @@ During sleep, our brain tidies up ideas and concepts. It erases less important i
 It's effective to review what we've learned right before we take a nap or go to sleep for the evening. Dreaming about what we're studying can substantially enhance our ability to understand.
 
 ## Chunking
-Chunks are compact packages of informaton that our mind can easily access. Building chunks can help build a good knowledge foundation for a difficult displine.
+
+### What is a Chunk?
+Chunks are compact packages of information that our mind can easily access. Building chunks can help establish a solid knowledge foundation for a challenging discipline.
+
+Chunking is the process of uniting bits of information together through meaning. It helps our brain to run more efficiently. Simply remembering something without understanding it does not help build up chunks.
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111203343.png)
+
+When we're focusing attention on something, it's as if we have an octopus in our prefrontal cortex to help make connections to information. When we are stressed, the octopus begins to lose the ability to make connections. This explains why our brain does not work correctly when we're angry, stressed, or afraid.
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111203907.png)
+
+Learning a new language is like embedding basic words and patterns (chunks) so we can speak freely and creatively.
+
+The first step towards gaining expertise in academic topics is to create conceptual chunks that unite information through meaning. The same technique can also apply to music, sports, dance, and literally every subject.
+
+A chunk means a network of neurons that can fire together so we can think of a thought or perform an action smoothly and effectively.
+
+Focused practice, spaced repetition can help create chunks.
+
+### How to Form a Chunk?
+The best chunks are the ones well ingrained that we do not have to consciously think about connecting the neural pattern together. That's the idea of making complex ideas, movements, or reactions into a single chunk.
+
+When learning math and science, we bear a heavy cognitive load when we're first trying to understand how to work out a problem. Then, we often divide it into a walk-through example. However, this sometimes blocks us from understanding the connection between steps; instead, it may focus on thinking about why an individual step is taken.
+
+Here are the basic steps behind how to make a chunk:
+
+1. **Focus** our undivided attention on the information we want to chunk, staying away from interruptions.
+2. **Understand** the basic idea we're trying to chunk. Understanding is like super glue that helps hold the underlying memory traces together. However, we can still create chunks if we understand a concept and do not relate it to other materials we're learning. But those may turn out to be useless chunks that our brain may find difficult to retrieve later on. This usually happens when we simply take what a teather tells us but do not review it soon after we first learn it. Testing ourselves is an effective technique to speed up our learning. **We truly understand something when we can actually do it.**
+3. **Gain context** so we can see not just how but also when to use this chunk. It means going beyond the initial problem and seeing more broadly. Repeating and practicing with both related and unrelated problems in different contexts can help us understand when and when not to use a chunk. As an example, we may have something in our toolbox, but if we do not know when to use it, it's simply useless. Learning takes place in two ways: top-down and bottom-up. The bottom-up chunking process builds and strengthens each chunk so we can easily access them. The top-down process allows us to see what we're learning and where it fits in. A tip for reading a book is to do a rapid walkthrough of a chapter before we begin studying it.
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111212450.png)
+
+Another tip is to learn the major concepts or points first, then the details. As the following puzzle shows, we can solve the puzzle by grasping the main ideas of how this car is built, and then we can fill in the puzzle pieces. Even though a few pieces are missing, we can still see the big picture of the car.
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111212738.png)
+
+### Recall
+Psychologists have shown that rereading a book is much less productive than recall: after we've read the material, simply look away, and recall it. By practicing and recalling, we can learn far more and at a much deeper level than using any other approach.
+
+The retrieval process itself enhances deep learning and helps us to begin forming chunks.
+
+Recalling material when we are outside our usual place of study can also help strengthen our grasp of the material, making us independent of cues from any one given location.
+
+### Illusions of Comptence
+Merely glancing at a solution and thinking you truly know it yourself is one of the most common illusions of competence in learning.
+
+Highlighting and underlining can sometimes be ineffective and misleading, fooling us into thinking that we've internalized the concept. It's advisable to understand the main ideas before making marks and to keep underlining or highlighting to a minimum, focusing on one sentence or less in a paragraph.
+
+**Testing** ourselves is an effective technique to eliminate illusions of competence. It helps ensure that we truly understand and have retained the information we've been learning.
+
+Making mistakes is also valuable. Mistakes not only reveal areas for improvement but also play a crucial role in correcting our thinking, helping us learn and perform better.
+
+### Neuromodulators
+Neuromodulators are chemicals that influence how a neuron responds to other neurons. Three of them are important to learning:
++ acetylcholine: focused learning
++ dopamine: reward learning, decision making, motivation
++ serotonin: diffuse mode, social life, risk taking behavior
+
+### The Value of a Library of Chunks
 
 
 
@@ -69,12 +128,13 @@ Chunks are compact packages of informaton that our mind can easily access. Build
 
 
 
-illusions of comptence
 
-overlearning
+### Overlearning
+Overlearning is when you're using ineffective study methods to fool your mind into thinking you're learning something when you're mostly just wasting your time
+
+
 
 advantages of interleaving
-
 
 
 
