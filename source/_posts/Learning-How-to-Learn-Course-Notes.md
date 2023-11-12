@@ -19,7 +19,7 @@ Researchers found that we have two fundamentally different modes of thinking:
 
 An analogy of the pinball game can be used to help us understand how these two different modes function.
 
-![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/focus_diffuse.png?token=AGXUCY7GXISUCW3GOLF7GNLFKAPIQ)
+![](https://github.com/Aden-Q/blogImages/blob/74ea502245d1bda4136035800c79fc364895170a/img/focus_diffuse.png)
 
 On the left, it shows the focused mode. The orange pattern shown at the top represents a familiar thought pattern, such as adding some numbers. Using this mode, we are able to solve problems and understand concepts that are related to something we are rather familiar with. However, when it comes to innovation and creativity. This mode of thinking cannot be of much help. That's when the diffuse mode plays its role.
 
@@ -32,7 +32,7 @@ Procrastination is natural and common. When people look at something that they r
 
 However, researchers found that not long after people start actually working on what they didn't like, the neurodiscomfort disappears. Based on this fact, a mental tool called the **Pomodoro** can be effective in helping us tackle procrastication. All it involves is a 25-minute focus period without any interruption, followed by a 5-minute break (to change your focus for a while). Keep in mind that a 25-minute focus is effective for most people, but not everyone. Some people may find a longer time period of focus suits them better (e.g. 50-minute focus + 10-minute break).
 
-![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111184114.png?token=AGXUCY5OJROERX33COUFONLFKAPWS)
+![](https://github.com/Aden-Q/blogImages/blob/74ea502245d1bda4136035800c79fc364895170a/img/20231111184114.png)
 
 ### Memory
 There are two major memory systems:
@@ -59,9 +59,21 @@ During sleep, our brain tidies up ideas and concepts. It erases less important i
 It's effective to review what we've learned right before we take a nap or go to sleep for the evening. Dreaming about what we're studying can substantially enhance our ability to understand.
 
 ## Chunking
+Chunks are compact packages of informaton that our mind can easily access. Building chunks can help build a good knowledge foundation for a difficult displine.
 
 
 
+
+
+
+
+
+
+illusions of comptence
+
+overlearning
+
+advantages of interleaving
 
 
 
@@ -69,6 +81,8 @@ It's effective to review what we've learned right before we take a nap or go to 
 
 
 ## Procrastination and Memory
+
+
 
 
 
