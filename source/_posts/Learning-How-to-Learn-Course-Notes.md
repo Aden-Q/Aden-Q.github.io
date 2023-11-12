@@ -30,25 +30,33 @@ It is worth noting that two thinking modes are mutually exclusive, which means w
 ### Procrastination and the Pomodora Technique
 Procrastination is natural and common. When people look at something that they really would rather not do, they activate the areas of their brain associated with pain. In reaction, the brain will try to stop the negative stimulation by switching attention to something else. That is the cause of procrastination.
 
-However, researchers found that not long after people start actually working on what they didn't like, the neurodiscomfort disappears. Based on this fact, a mental tool called the **Pomodoro** can be effective in helping us tackle procrastication. All it involves is a 25-minute focus period without any interruption, followed by a 5-minute break. Keep in mind that a 25-minute focus is effective for most people, but not everyone. Some people may find a longer time period of focus suits them better.
+However, researchers found that not long after people start actually working on what they didn't like, the neurodiscomfort disappears. Based on this fact, a mental tool called the **Pomodoro** can be effective in helping us tackle procrastication. All it involves is a 25-minute focus period without any interruption, followed by a 5-minute break (to change your focus for a while). Keep in mind that a 25-minute focus is effective for most people, but not everyone. Some people may find a longer time period of focus suits them better (e.g. 50-minute focus + 10-minute break).
 
-### Two Types of Memory
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111184114.png?token=AGXUCY5OJROERX33COUFONLFKAPWS)
 
+### Memory
+There are two major memory systems:
++ Short-term memory (aka working memory)
++ Long-term memory
 
+Working memory is like an inefficient mental blackboard. It's centered in the prefrontal cortex and deals with what we're immediately and consciously processing in our minds. Repetitions are needed in order to keep things in working memory.
 
+Long-term memory is like a storage warehouse, distributed over a large area. Different kinds of long-term memory are stored in different regions of the brain.
 
+Practice and repetition help move information from working memory into long-term memory.
 
+However, there's also a trick to repetition. A technique called "Spaced Repetition" is useful and efficient. The idea is to space the repetition out and repeat it over a number of days. Research has shown that repeating something 20 times in one evening is far less effective than practicing it the same number of times over several days.
 
-### The Importance of Sleep in Learning
+### The importance of sleep in learning
+Sleep is important in learning, in a few aspects.
 
+Being awake generates toxic byproducts in our brain, and sleep plays a crucial role in eliminating these poisons.
 
+Persistently getting too little sleep over an extended period can be associated with adverse conditions such as headaches, depression, heart disease, diabetes, and a higher risk of premature death.
 
+During sleep, our brain tidies up ideas and concepts. It erases less important ideas and strengthens areas that we need or want to remember. It also consolidates our memory into easier to grasp chunks.
 
-
-
-
-
-
+It's effective to review what we've learned right before we take a nap or go to sleep for the evening. Dreaming about what we're studying can substantially enhance our ability to understand.
 
 ## Chunking
 
