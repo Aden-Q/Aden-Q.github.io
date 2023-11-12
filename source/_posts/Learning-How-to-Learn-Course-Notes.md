@@ -119,26 +119,45 @@ Neuromodulators are chemicals that influence how a neuron responds to other neur
 + serotonin: diffuse mode, social life, risk taking behavior
 
 ### The Value of a Library of Chunks
+Gradually building the number of chunks in our mind is a key strategy to enhance our knowledge and gain expertise. It allows us to organize information effectively, making learning more efficient and facilitating a deeper understanding of complex subjects.
 
+Chunks can help us understand new concepts. When we grasp one chunk, we often find that it can be related to similar chunks, even in very different fields. This idea is called **transfer**.
 
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111223316.png)
 
+The diffuse mode can play a crucial role in connecting two or more chunks together in new and innovative ways, enabling us to solve novel problems and approach challenges with a fresh perspective.
 
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111223503.png)
 
+There are two ways to problem solving:
++ Seqential: step-by-step reasoning, focus mode
++ Holistic intuition: linking of several seemingly different thoughts, diffuse mode
 
+Most difficult problems and concepts are grasped from the diffuse mode.
 
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111224143.png)
 
-
+**Law of Serendpity**:
+> Lady Luck favors the one who tries.
 
 ### Overlearning
-Overlearning is when you're using ineffective study methods to fool your mind into thinking you're learning something when you're mostly just wasting your time
+Continuing to study or practice after we've mastered what we can in the session is called **overlearning**. Research has shown that overlearning can be a waste of valuable learning time.
 
+Repeating something that we already perfectly know can also create the illusion of competence, giving us the false impression that we've mastered the full range of materials, when, in reality, we may have only mastered the easy components.
 
+**Deliberate practice** is a technique to focus on the more difficult material, to help avoid the illusion of competence in this scenario.
 
-advantages of interleaving
+### Einstellung
+Einstellung is a phenomenon where our initial, simple thought, an already existing idea, or a neural pattern prevents a better idea or solution from being found. It highlights how pre-existing mental frameworks can sometimes hinder the exploration of more innovative and effective solutions.
 
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111225441.png)
 
+### Interleaving
+Interleaving is a technique involving jumping back and forth between problems and situations that require different techniques or strategies. It's a useful method to overcome Einstellung, allowing for a more flexible and adaptable approach to problem-solving and learning.
 
+**Interleaving is extraordinarily important** and it helps us to learn more deeply. It builds flexibility and creativity.
 
+Moreover, interleaving between different disciplines can enhance our creativity even further. This cross-disciplinary approach encourages the brain to draw connections between diverse fields, fostering a more innovative and creative mindset.
 
 ## Procrastination and Memory
 
