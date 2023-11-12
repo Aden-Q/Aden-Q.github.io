@@ -19,7 +19,7 @@ Researchers found that we have two fundamentally different modes of thinking:
 
 An analogy of the pinball game can be used to help us understand how these two different modes function.
 
-![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231111180930.png?token=AGXUCY5TJRXJPBESZXMOKADFKAL7S)
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/focus_diffuse.png?token=AGXUCY7GXISUCW3GOLF7GNLFKAPIQ)
 
 On the left, it shows the focused mode. The orange pattern shown at the top represents a familiar thought pattern, such as adding some numbers. Using this mode, we are able to solve problems and understand concepts that are related to something we are rather familiar with. However, when it comes to innovation and creativity. This mode of thinking cannot be of much help. That's when the diffuse mode plays its role.
 
