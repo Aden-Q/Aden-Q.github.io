@@ -4,7 +4,7 @@ date: 2023-11-11 15:56:49
 tags:
 ---
 
-This is a [course](https://www.coursera.org/learn/learning-how-to-learn) on Coursera, taught by Barbara Oakley, and Dr. Terrence Sejnowski. The course comprises four modules that introduce how our brain functions, along with severa very useful learning techniques that can be be applied to all disciplines, not only STEM. The insights from the course are based on solid research from neuroscience, cognitive psychology, and contributions from leading instructors and practioners in different disciplines. It is a general learning-focused course with a lifelong impact on many people. There is also a career-focus course on Coursera, Mindshift, by the same instructors, which can be seen as a sequel to this course.
+This is a [course](https://www.coursera.org/learn/learning-how-to-learn) on Coursera, taught by *Barbara Oakley*, and *Dr. Terrence Sejnowski*. The course comprises four modules that introduce how our brain functions, along with severa very useful learning techniques that can be be applied to all disciplines, not only STEM. The insights from the course are based on solid research from neuroscience, cognitive psychology, and contributions from leading instructors and practioners in different disciplines. It is a general learning-focused course with a lifelong impact on many people. There is also a career-focus course on Coursera, Mindshift, by the same instructors, which can be seen as a sequel to this course.
 
 ## What is Learning?
 
@@ -214,13 +214,49 @@ We should write the daily task list the evening before the day starts because it
 
 Another tip is to **eat your frogs first in the morning**. Try to work on a most important and most disliked task first, when the day begins, for at least one pomodoro, if not completing the entire task.
 
+### Memory
+
+There are a few tips to build solid long-term memory:
+
+1. Use lively visual metapohor and analogy
+2. Spaced repetition and practice
+3. Use the Memory Palace technique
+
 ## Renaissance Learning and Unblocking Your Potential
 
+### How to Become a Better Learner
+There are two tips to become a better learner:
+- Physcal exercise: It helps new neurons survive, and is by far more effective than any drug on the market today to help us learn better. It benefits all vital organs, not just the brain.
+- Practice makes perfect: Only when the brain is prepared. Practice can train the brain.
 
+### The Value of Teamwork
+When working in focus mode, it's easy to make minor mistakes in our assumptions or calculations. The intense focus often leads to a desire to cling to what we've done.
 
+Teamwork is one of the best ways to catch our blind spots and errors.
+Collaborating with friends or teammates who share a focus on the same subject can help us identify where our thinking has gone astray.
+They serve as a larger-scale diffuse mode outside our brain, capable of catching what we may have missed or cannot see. Furthermore, explaining concepts to peers can deepen our understanding of the subject.
 
+### Test Taking Tips
+Taking tests is a crucial component in consolidating our knowledge.
 
+A few useful tips on testing taking:
++ Start with hard and jump to easy: This can help activate the diffuse mode of thinking.
++ Get excited
++ Take deep breaths to relax when feeling stressed or fearful.
++ Don't let your brain deceive you. This is when the focus mode enforces a sense of attachment, making us believe we are on track when, in reality, we may be totally off course. Switching to the diffuse mode is helpful in this scenario.
 
+#### A Test Checklist
+Every time before a test, go over the following checklist and see whether our preparation for test-taking is on target. The checklist is developed by educator, *Richard Felder*. It's suitable for many disciplines.
 
-
-
+- Did you make a serious effort to understand the text?
+- Did you work with classmates on homework problems?
+- Did you attempt to outline every homework problem solution?
+- Did you participate actively in homework group discussions?
+- Did you consult with the instructor?
+- Did you understand all your homework problem solutions?
+- Did you ask in class for explanations of homework problem solutions that weren’t clear to you?
+- A study guide?
+- Did you attempt to outline lots of problem solutions quickly?
+- Did you go over the study guide and problems with classmates and quiz one another?
+- A review session?
+- Did you get a reasonable night’s sleep before the test?
