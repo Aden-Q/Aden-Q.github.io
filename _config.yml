@@ -136,7 +136,6 @@ theme_config:
   -
     icon: mail
     link: mailto:qian0102@umn.edu
-  
 
   # Enable MathJax support for Latex
   mathjax:
