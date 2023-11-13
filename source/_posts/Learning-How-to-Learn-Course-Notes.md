@@ -161,16 +161,58 @@ Moreover, interleaving between different disciplines can enhance our creativity 
 
 ## Procrastination and Memory
 
+### Tackling Procrastination
 
+Goot learning is a bit-by-bit activity.
 
+Procrastination is easy to fall into. Willpower is hard to come by, and shouldn't be wasted on fending off procrastination except when necessary.
 
+**Procrastination is a bad habit that influcences many important areas of our life.**
 
+Procrastination shares features with addiction.
 
+#### Inner Zombies
 
+The routine habitual responses our brain falls into as a result of specific cues.
 
+#### Habits
+Habits have four parts:
+1. The cue: the trigger that launches us into the zombie mode, it has four categories:
+   1. location
+   2. time
+   3. how we feel
+   4. reactions
+2. The routine: the zombie mode
+3. The reward
+4. The belief: we need to change the underlying belief in order to change a habit
 
+#### Process versus Product
+It's normal to begin a learning session with a few negative feelings.
 
+Another key to prevent procrastination is to focus on **process**, instead of **product**. Process involves the flow of time, habits and actions associated with that flow of time. For example: I'll spend 20 minutes working. Product, on the other hand, is an outcome. For example: a homework assignment that we need to finish.
 
+Processes relate to simply habits, which means that we can utilize the zombie mode to help us get into the flow of time. Our inner zombie likes processes.
+
+The pomodoro technique mentioned before is a powerful tool to help us focus on process.
+
+#### Harnessing Zombies
+The trick to overriding a habit is to change our reaction to the cue. The only place where we need to apply willpower is in changing our response to the cue.
+
+Back to four components of a habit, from the perspective of getting rid of procrastination:
+1. The cue: We can prevent most damaging cues by distancing ourselves from distractions, such as turning off the cell phone or staying away from the internet.
+2. The routine: Our brain falls into the zombie mode when we've gotton the cue, this is why we need to rewiring our old habit. The key to rewiring is to plan and develop a new ritual.
+3. The reward: Only when our brain starts expecting a reward, will the important rewiring take place that will allow us to create new habits. For example, we can stop all tasks at 5:00 pm.
+4. The belief: We should believe that we can change our procrastination habit.
+
+A good way to keep perspective about what we're trying to learn and accomplish is planning well. Specifically, we should have:
++ Weekly list of key tasks
++ Daily TODO list
+
+We should write the daily task list the evening before the day starts because it helps our subconscious grapple with the tasks on the list, allowing us to figure out how to accomplish them. This is where we can utilize the 'zombie mode' to help us overcome procrastination.
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231112201426.png)
+
+Another tip is to **eat your frogs first in the morning**. Try to work on a most important and most disliked task first, when the day begins, for at least one pomodoro, if not completing the entire task.
 
 ## Renaissance Learning and Unblocking Your Potential
 
