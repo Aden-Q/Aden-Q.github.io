@@ -1,5 +1,5 @@
 ---
-title: MIT 6.NULL - Course Notes
+title: MIT 6.NULL Notes
 categories:
   - MOOC
 date: 2023-11-14 01:49:35
