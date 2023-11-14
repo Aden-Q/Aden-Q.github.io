@@ -9,6 +9,37 @@ categories:
 
 This is a [course](https://www.coursera.org/learn/learning-how-to-learn) on Coursera, taught by *Barbara Oakley*, and *Dr. Terrence Sejnowski*. The course comprises four modules that introduce how our brain functions, along with several very useful learning techniques applicable to all disciplines, not just STEM. The insights from the course are based on solid research from neuroscience, cognitive psychology, and contributions from leading instructors and practitioners in various fields. It is a general learning-focused course with a lifelong impact on many people. Additionally, there is a career-focused course on Coursera, 'Mindshift,' by the same instructors, which can be seen as a sequel to this course.
 
+**Content**
+
+- [What is Learning?](#what-is-learning)
+  - [Thinking Modes](#thinking-modes)
+  - [Procrastination and the Pomodora Technique](#procrastination-and-the-pomodora-technique)
+  - [Memory](#memory)
+  - [The importance of sleep in learning](#the-importance-of-sleep-in-learning)
+- [Chunking](#chunking)
+  - [What is a Chunk?](#what-is-a-chunk)
+  - [How to Form a Chunk?](#how-to-form-a-chunk)
+  - [Recall](#recall)
+  - [Illusions of Comptence](#illusions-of-comptence)
+  - [Neuromodulators](#neuromodulators)
+  - [The Value of a Library of Chunks](#the-value-of-a-library-of-chunks)
+  - [Overlearning](#overlearning)
+  - [Einstellung](#einstellung)
+  - [Interleaving](#interleaving)
+- [Procrastination and Memory](#procrastination-and-memory)
+  - [Tackling Procrastination](#tackling-procrastination)
+    - [Inner Zombies](#inner-zombies)
+    - [Habits](#habits)
+    - [Process versus Product](#process-versus-product)
+    - [Harnessing Zombies](#harnessing-zombies)
+  - [Memory](#memory-1)
+- [Renaissance Learning and Unblocking Your Potential](#renaissance-learning-and-unblocking-your-potential)
+  - [How to Become a Better Learner](#how-to-become-a-better-learner)
+  - [The Value of Teamwork](#the-value-of-teamwork)
+  - [Test Taking Tips](#test-taking-tips)
+    - [A Test Checklist](#a-test-checklist)
+
+
 ## What is Learning?
 
 ### Thinking Modes

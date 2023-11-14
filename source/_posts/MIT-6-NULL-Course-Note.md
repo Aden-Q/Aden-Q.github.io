@@ -11,9 +11,35 @@ This introductory course aims to enhance the proficiency of CS students with the
 
 While I won't cover every single detail of the course, I'll highlight some key takeaways that I personally find very helpful.
 
+**Content**
+
+- [Shell Tools and Scripting](#shell-tools-and-scripting)
+  - [Special Variables for the Bash Shell](#special-variables-for-the-bash-shell)
+  - [Finding Files](#finding-files)
+  - [Search Context](#search-context)
+  - [Search in History and History-Based Autosuggestions](#search-in-history-and-history-based-autosuggestions)
+  - [Directory Navigation](#directory-navigation)
+  - [File Editing](#file-editing)
+- [Editors](#editors)
+- [Command-line Environment](#command-line-environment)
+  - [Job Control](#job-control)
+  - [Terminal Multiplexers](#terminal-multiplexers)
+  - [Alias](#alias)
+  - [Dotfiles](#dotfiles)
+  - [Remote Development with SSH](#remote-development-with-ssh)
+- [Logging](#logging)
+- [Profiling](#profiling)
+  - [Resource Monitoring Tools](#resource-monitoring-tools)
+- [Metaprogramming](#metaprogramming)
+  - [Build Systems](#build-systems)
+  - [Dependency and Semantic Versioning](#dependency-and-semantic-versioning)
+  - [Continuous integration (CI) systems](#continuous-integration-ci-systems)
+- [Security and Cryptography](#security-and-cryptography)
+- [Potpourri](#potpourri)
+
 ## Shell Tools and Scripting
 
-### Special Variables for the Bash Shell:
+### Special Variables for the Bash Shell
 
 - `$0`: Name of the script/program
 - `$1` to `$9`: Arguments to the script
@@ -58,7 +84,7 @@ More complex tools like `tree`, `broot`, `nn`, `ranger` can be used to get an ov
 
 `sed`, `awk` are useful tools to edit files/input streams. Both have their own programming languages and can be used along with **regex**, a powerful tool for pattern matching. Even if we do not use shell, it's crucial to be familiar with regex for a developer.
 
-### Misc
+**Misc**
 
 The `xargs` command can be used to execute a command using STDIN as arguments. We might need to use this tool sometimes because some commands take both STDIN (i.e. any input stream) and command line arguments, but some commands like `tar` and `rm` only take input from arguments. As an example:
 
@@ -76,13 +102,29 @@ I personally use **VSCode** for both my side projects and work. While it comes w
 
 ### Job Control
 
+**Killing a Process**
 
+The shell can use an inter-process communication mechanism called a *signal*. When a process receives a signal, it stops its execution, deals with the signal, and potentially changes the flow of execution based on the information that the signal delivered. For this reason, signal is also called *software interrupt*.
 
++ `Ctrl-C`: sends a `SIGINT` signal to a process to stop its execution
++ `Ctrl-\`: sends a `SIGQUIT` signal to a process to quit the process
++ `kill -TERM <PID>`: sends a `SIGTERM` signal to terminate a process gracefully
 
+**Pausing and Backgrounding Processes**
 
+Besides killing a process, we can also pause and resume a process.
 
++ `Ctrl-Z`: sends a `SIGSTOP` signal to a process to pause it
++ `fg`: continues the paused job in the foreground
++ `bg`: continues the paused job in the background
 
+The `job` command lists all unfinished jobs associated with the current terminal session. The `pgrep` command can be used to find the associated process id of each.
 
+The `&` suffix in a command will run the command in the background.
+
+To background an already running program, do `Ctrl-Z` followed by `bg`.
+
+Note that processes backgrounded by these methods are child processes of the current terminal and will terminate if the terminal is closed (with a `SIGUP` signal). To prevent this, use `nohup`, which is a wrapper that ignores `SIGUP`.
 
 ### Terminal Multiplexers
 
@@ -138,31 +180,125 @@ Organizing dotfiles can help us easily migrate to a new machine/environment. A t
 
 ### Remote Development with SSH
 
+It is very common for developers to use remote machines, and a powerful tool for this purpose is the **Secure Shell** (**SSH**). An alternative to `ssh` is `mosh`, developed by MIT, which supports long-lived connections.
 
-## System Logs
-A few useful Linux programs can be used to access system logs. `systemd`, `journalctl `, `dmesg` kernel logs
+**Copying files over SSH**
+
+There are a few ways to copy files from local to a remote machine:
+
++ `ssh+tee`: `tee` writes the output from STDIN to a file and returns the file handler. As an example: `cat localfile | ssh remote_server tee serverfile`
++ `scp`: a secure copy command used to copy large amounts of files/directories. The syntax is `scp path/to/local_file remote_host:path/to/remote_file`
++ `rsync`: a program improves upon `scp` to skip duplicate
+
+**Port Forwarding**
+
+Port forwarding is a useful technique, especially in web development or when dealing with a service listening on a remote host's port that is not directly accessible through the network or the internet.
+
+There are two types of port forwarding, as the image below shows:
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/port_forwarding.png)
+
+We can use SSH with port forwarding to map a remote host's port to a local one. As an example:
+
+```bash
+$ ssh -L local_port:localhost:remote_port user@remote_host
+```
+
+This command forwards traffic from the local port to the specified remote port on the remote host.
+
+## Logging
+
+Logging is better than regular print statements for debugging for several reasons:
+
++ We can log to files, socket, or even remote machines instead of STDOUT.
++ Logging supports severity levels (such as INFO, DEBUG, WARN, ERROR, &c) that allow us to filter the output accordingly.
+
+In UNIX systems, usually programs write their logs under `/var/log`. There is also a **system log**.
+
+`systemd` is a system daemon that controls many things such as which services are enabled and running. `systemd` places logs under `/var/log/journal` in specialized format that can be parsed and displayed by the `journalctl` command.
+
+The `dmesg` command can be used to access the kernel log.
+
+Another useful tool to filter and display logs is `log show`.
 
 ## Profiling
 
+Profilers and monitoring tools can help us understand which parts of our program are taking up most of the time/resources and becoming bottlenecks for performance. This allows us to focus on optimizing those specific parts.
+
+Most commonly used profilers are CPU profilers and memory profilers.
+
+There is also something called *event profiling*. The `perf` command can report system events related to a program. It can easily report things including cache locality, high amounts of page faults or livelocks.
+
+A [Flame Graph](http://www.brendangregg.com/flamegraphs.html) can be used to show profiling information:
+
+![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/20231114114900.png)
+
 ### Resource Monitoring Tools
 
+There are several tools available to monitor various system resources. A few common ones are listed below:
+
++ **General monitoring**: `top`, `htop`, `glances`, `dstat`
++ **I/O operations**: `iotop`
++ **Disk usage**: `df`, `du`, `ncdu`
++ **Memory usage**: `free`
++ **Open files**: `lsof`` lists file information about files opened by processes. It can be quite useful for checking which process has opened a specific file
++ **Network connections and config**: `ss` lets you monitor incoming and outgoing network packet statistics as well as network interface statistics. `ip` can be used to display routing
++ **Network usage**: `nethogs` and `iftop`
+
+There is also a tool `hyperfine` that allows quickly benchmark commands.
 
 ## Metaprogramming
 
 ### Build Systems
 
+Build systems usually share some common characteristics:
 
+- dependencies
+- targets
+- rules
+
+`make` is one of the most commonly used build tools.
 
 ### Dependency and Semantic Versioning
-Recently during my work, I also encountered the concetp of [semantic vesioning](https://www.conventionalcommits.org/en/v1.0.0/) and [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Those two concepts are important in the sense to allow automate version bump, and changelogs.
 
-Semantic versioning is important in the life cycle of project development in a few aspects:
+Recently during my work, I also encountered the concetps of [semantic vesioning](https://www.conventionalcommits.org/en/v1.0.0/) and [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Those two concepts are important in the sense to allow automatic version bump, changelogs, and a safe release cycle for programs.
+
+Sematic versioning follows the form: `major.minor.patch`. The core rules are:
+
+- If a new release does not change the API, increase the patch version.
+- If you add to your API in a backwards-compatible way, increase the minor version.
+- If you change the API in a non-backwards-compatible way, increase the major version.
+
+Semantic versioning is crucial in the lifecycle of project development because:
+
++ It is safe to use the latest release within the same major version as our project's original dependency. (Think about the backwards compatibility rule). As an example, if the project depends on a library at version `1.3.7`, then it should be safe t build it with `1.3.8`, `1.6.1`, or even `1.3.0`. However, `2.2.4` may not work.
+
+There is also a notion of *lock files* in dependency management. A lock file lists all the versions the project currently depends on. Using the lock file has the following benefits:
+
+- Avoiding unnecessary recompiles
+- Having reproducible builds
+- Not automatically updating to the latest version
+
+### Continuous integration (CI) systems
+
+A continuous integration system comprises a series of workflows triggered by specific events, automating a range of tasks such as testing, building, versioning, and deploying. This streamlined automation not only enhances efficiency but also ensures the reliability and consistency of software development processes.
+
+Some examples of CI systems:
+
+- Travis CI
+- Azure Pipelines
+- GitHub Actions
+- CircleCI
+
+Different types of tests;
+
+- Unit test: a “micro-test” that tests a specific feature in isolation, it can be a single function
+- Integration test: a “macro-test” that runs a larger part of the system to check that different feature of components work together
+- Regression test: a test that implements a particular pattern that previously caused a bug to ensure that the bug does not resurface
+- Mocking: to replace a function, module, or type with a fake implementation to avoid testing unrelated functionality. For example, we can mock the network, or disk.
+
+## Security and Cryptography
 
 
 
-
-
-
-
-
-
+## Potpourri
