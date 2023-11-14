@@ -27,3 +27,9 @@ $ hexo generate
 ```bash
 $ hexo server
 ```
+
+## Plugins
+
++ [hexo-renderer-marked](https://github.com/hexojs/hexo-renderer-marked)
++ [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)
++ [hexo-generator-search](https://www.npmjs.com/package/hexo-generator-search)
