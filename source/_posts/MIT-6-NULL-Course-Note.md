@@ -6,7 +6,6 @@ categories:
   - MOOC
 ---
 
-
 This introductory course aims to enhance the proficiency of CS students with their tools. It covers a broad range of topics without delving too deeply into each, including command-line usage, shell programming, editors, version control, debugging, profiling, build systems, testing, etc. While some of these concepts may not seem immediately useful during a student's campus life, they prove to be highly valuable in the real industry.
 
 While I won't cover every single detail of the course, I'll highlight some key takeaways that I personally find very helpful.
@@ -290,7 +289,7 @@ Some examples of CI systems:
 - GitHub Actions
 - CircleCI
 
-Different types of tests;
+Different types of tests:
 
 - Unit test: a “micro-test” that tests a specific feature in isolation, it can be a single function
 - Integration test: a “macro-test” that runs a larger part of the system to check that different feature of components work together
