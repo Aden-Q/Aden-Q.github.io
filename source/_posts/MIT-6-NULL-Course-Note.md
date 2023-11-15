@@ -43,7 +43,7 @@ While I won't cover every single detail of the course, I'll highlight some key t
   - [FUSE](#fuse)
   - [Command Line Arguments](#command-line-arguments)
   - [Hammerspoon (desltop automation on macOS)](#hammerspoon-desltop-automation-on-macos)
-  - [****Booting + Live USBs****](#booting--live-usbs)
+  - [Booting + Live USBs](#booting--live-usbs)
 
 ## Shell Tools and Scripting
 
@@ -395,7 +395,7 @@ FUSE (Filesystem in User Space) allows filesystems to be implemented by a user p
 - Mute your speaker when you arrive in lab (by detecting the WiFi network)
 - Show you a warning if you’ve accidentally taken your friend’s power supply
 
-### ****Booting + Live USBs****
+### Booting + Live USBs
 
 We can boot a OS from a live USB, by using BIOS/UEFI to initialize the system.
 
