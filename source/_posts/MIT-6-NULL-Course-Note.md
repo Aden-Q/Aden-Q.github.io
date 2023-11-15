@@ -39,6 +39,11 @@ While I won't cover every single detail of the course, I'll highlight some key t
   - [Symmetric Cryptography](#symmetric-cryptography)
   - [Asymmetric Cryptography](#asymmetric-cryptography)
 - [Potpourri](#potpourri)
+  - [Daemons](#daemons)
+  - [FUSE](#fuse)
+  - [Command Line Arguments](#command-line-arguments)
+  - [Hammerspoon (desltop automation on macOS)](#hammerspoon-desltop-automation-on-macos)
+  - [****Booting + Live USBs****](#booting--live-usbs)
 
 ## Shell Tools and Scripting
 
@@ -355,3 +360,45 @@ An example is [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)).
 
 ## Potpourri
 
+### Daemons
+
+In Linux, `systemd` is the most common solution for running and setting up daemon processes. We can run `systemctl status` to list the current running daemons, in a tree structure. `systemd` can be interacted with the `systemctl` command in order to `enable`, `disable`, `start`, `stop`, `restart` or check the `status` of services.
+
+### FUSE
+
+FUSE (Filesystem in User Space) allows filesystems to be implemented by a user program. FUSE lets users run user space code for filesystem calls and then bridges the necessary calls to the kernel interfaces.
+
+**Applications:**
+
+- [sshfs](https://github.com/libfuse/sshfs) - Open locally remote files/folder through an SSH connection.
+- [rclone](https://rclone.org/commands/rclone_mount/) - Mount cloud storage services like Dropbox, Google Drive, Amazon S3 or Google Cloud Storage and open data locally.
+- [gocryptfs](https://nuetzlich.net/gocryptfs/) - Encrypted overlay system. Files are stored encrypted but once the FS is mounted they appear as plaintext in the mountpoint.
+- [kbfs](https://keybase.io/docs/kbfs) - Distributed filesystem with end-to-end encryption. You can have private, shared and public folders.
+- [borgbackup](https://borgbackup.readthedocs.io/en/stable/usage/mount.html) - Mount your deduplicated, compressed and encrypted backups for ease of browsing.
+
+### Command Line Arguments
+
+- A `--help` flag can be used to display brief usage instructions for the tool.
+- A `--version` or `-V` flag can be used to print the program’s version
+- A `--verbose` or `-v` flag produces more verbose output. The flag can be included multiple times  (`-vvv`) to get more verbose output. Similarly, a `--quiet` flag can be used to only print something on error.
+- In many tools, `-` in place of a file name means “standard input” or “standard output”, depending on the argument.
+- The special argument `--` makes a program *stop* processing flags and options (things starting with `-`) in what follows, letting you pass things that look like flags without them being interpreted as such: `rm -- -r` or `ssh machine --for-ssh -- foo --for-foo`.
+
+### Hammerspoon (desltop automation on macOS)
+
+[Hammerspoon](https://www.hammerspoon.org/) is a desktop automation framework for macOS. It lets us to write Lua scripts that hook into OS functionality, allowing us to interact with the keyboard/mouse, windows, displays, filesystem, and much more.
+
+**Applications:**
+
+- Bind hotkeys to move windows to specific locations
+- Create a menu bar button that automatically lays out windows in a specific layout
+- Mute your speaker when you arrive in lab (by detecting the WiFi network)
+- Show you a warning if you’ve accidentally taken your friend’s power supply
+
+### ****Booting + Live USBs****
+
+We can boot a OS from a live USB, by using BIOS/UEFI to initialize the system.
+
+Live USBs are useful for many purposes. For example, when we break the existing operating system so it can no longer boot, we can use a live USB to recover data or fix the operating system.
+
+[UNetbootin](https://unetbootin.github.io/) is a powerful tool to help create live USBs.
