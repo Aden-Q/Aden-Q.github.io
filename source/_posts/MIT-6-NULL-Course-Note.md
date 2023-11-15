@@ -34,6 +34,10 @@ While I won't cover every single detail of the course, I'll highlight some key t
   - [Dependency and Semantic Versioning](#dependency-and-semantic-versioning)
   - [Continuous integration (CI) systems](#continuous-integration-ci-systems)
 - [Security and Cryptography](#security-and-cryptography)
+  - [Entropy](#entropy)
+  - [Hash Functions](#hash-functions)
+  - [Symmetric Cryptography](#symmetric-cryptography)
+  - [Asymmetric Cryptography](#asymmetric-cryptography)
 - [Potpourri](#potpourri)
 
 ## Shell Tools and Scripting
@@ -298,6 +302,56 @@ Different types of tests:
 
 ## Security and Cryptography
 
+### Entropy
 
+Entropy is a meansure of randomness.
+
+### Hash Functions
+
+We mainly focus on [cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function). An example of a hash function is [SHA1](https://en.wikipedia.org/wiki/SHA-1).
+
+A hash function has the following properties:
+
+- Deterministic: the same input always generates the same output
+- Non-invertible: it is hard to find an input `m` such that `hash(m) = h` for some desired output `h`
+- Target collision resistant: given an input `m_1`, it’s hard to find a different input `m_2` such that `hash(m_1) = hash(m_2)`
+- Collision resistant: it’s hard to find two inputs `m_1` and `m_2` such that `hash(m_1) = hash(m_2)`
+
+**Applications**:
++ Git
++ A short summary of the contents of a file
++ [Commitment schemes](https://en.wikipedia.org/wiki/Commitment_scheme)
+
+### Symmetric Cryptography
+
+```
+keygen() -> key  (this function is randomized)
+
+encrypt(plaintext: array<byte>, key) -> array<byte>  (the ciphertext)
+decrypt(ciphertext: array<byte>, key) -> array<byte>  (the plaintext)
+```
+
+An example is [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
+
+### Asymmetric Cryptography
+
+```
+keygen() -> (public key, private key)  (this function is randomized)
+
+encrypt(plaintext: array<byte>, public key) -> array<byte>  (the ciphertext)
+decrypt(ciphertext: array<byte>, private key) -> array<byte>  (the plaintext)
+
+sign(message: array<byte>, private key) -> array<byte>  (the signature)
+verify(message: array<byte>, signature: array<byte>, public key) -> bool  (whether or not the signature is valid)
+```
+
+An example is [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)).
+
+**Applications:**
+
++ PGP email encryption
++ Private messaging: Telegram
++ Digital signature
 
 ## Potpourri
+
