@@ -9,6 +9,8 @@ categories:
 
 This is a [course](https://www.coursera.org/learn/learning-how-to-learn) on Coursera, taught by *Barbara Oakley*, and *Dr. Terrence Sejnowski*. The course comprises four modules that introduce how our brain functions, along with several very useful learning techniques applicable to all disciplines, not just STEM. The insights from the course are based on solid research from neuroscience, cognitive psychology, and contributions from leading instructors and practitioners in various fields. It is a general learning-focused course with a lifelong impact on many people. Additionally, there is a career-focused course on Coursera, 'Mindshift,' by the same instructors, which can be seen as a sequel to this course.
 
+---
+
 **Content**
 
 - [What is Learning?](#what-is-learning)

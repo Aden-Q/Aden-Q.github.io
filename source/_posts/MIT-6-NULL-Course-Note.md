@@ -10,6 +10,8 @@ This introductory course aims to enhance the proficiency of CS students with the
 
 While I won't cover every single detail of the course, I'll highlight some key takeaways that I personally find very helpful.
 
+---
+
 **Content**
 
 - [Shell Tools and Scripting](#shell-tools-and-scripting)

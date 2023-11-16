@@ -156,7 +156,6 @@ theme_config:
     link: https://github.com/Aden-Q
   -
     icon: mastodon
-    label: mastodon.social
     link: https://mastodon.social/@zecheng
   -
     icon: mail
