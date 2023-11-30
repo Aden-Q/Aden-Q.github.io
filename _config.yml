@@ -132,7 +132,13 @@ marked:
 
 # overwrite default config
 theme_config:
+  # Link to a page that gives an overview of all your projects.
+  # This can be an external link (e.g., to you GitHub profile) or to another
+  # page within your website.
+  projects_url: https://github.com/Aden-Q
+
   colorscheme: white
+
   # navigation menu
   nav:
     home: /
