@@ -23,7 +23,7 @@ This issue can be formulated as synchronizing multiple goroutines in Go.
 
 ## Using the or-channel concurrency pattern
 
-The first approach uses the channel synchronization primitive derived from Communicating Sequential Processes (CSP). The *or-channel* is a commonly used concurrency pattern in Go where we want to select data from multiple 'done' channels, and we are interested in the first piece of data that becomes available from any of the channels. This pattern is similar to the logical `OR` operation.
+This approach uses the channel synchronization primitive derived from Communicating Sequential Processes (CSP). The *or-channel* is a commonly used concurrency pattern in Go where we want to select data from multiple 'done' channels, and we are interested in the first piece of data that becomes available from any of the channels. This pattern is similar to the logical `OR` operation.
 
 ### When the number of 'done' channels is unknown beforehand
 
@@ -117,7 +117,7 @@ func or(channels ...<-chan interface{}) <-chan interface{} {
   // Use a buffered channel to accept the first value from any of the input channels
   syncChan := make(chan interface{}, 1)
 
-  // Function to close orDone when any of the input channels is closed
+  // Function to monitor input channels
   monitor := func(ch <-chan interface{}) {
     syncChan <- <-ch
   }
@@ -129,6 +129,7 @@ func or(channels ...<-chan interface{}) <-chan interface{} {
 
   // Wait for any of the goroutines to close orDone
   go func() {
+    // Unblocked when any of the workers sends a done signal
     <-syncChan
     close(orDone)
   }()
@@ -155,7 +156,7 @@ func or(channels ...<-chan interface{}) <-chan interface{} {
   // Use a buffered channel to accept the first value from any of the input channels
   syncChan := make(chan interface{}, 1)
 
-  // Function to close orDone when any of the input channels is closed
+  // Function to monitor input channels
   monitor := func(ch <-chan interface{}) {
     syncChan <- <-ch
   }
@@ -167,6 +168,7 @@ func or(channels ...<-chan interface{}) <-chan interface{} {
 
   // Wait for any of the goroutines to close orDone
   go func() {
+    // Unblocked when any of the workers sends a done signal
     <-syncChan
     close(orDone)
   }()
