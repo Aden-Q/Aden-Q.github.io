@@ -44,7 +44,7 @@ While I won't cover every single detail of the course, I'll highlight some key t
   - [Daemons](#daemons)
   - [FUSE](#fuse)
   - [Command Line Arguments](#command-line-arguments)
-  - [Hammerspoon (desltop automation on macOS)](#hammerspoon-desltop-automation-on-macos)
+  - [Hammerspoon (desktop automation on macOS)](#hammerspoon-desktop-automation-on-macos)
   - [Booting + Live USBs](#booting--live-usbs)
 
 ## Shell Tools and Scripting
@@ -386,7 +386,7 @@ FUSE (Filesystem in User Space) allows filesystems to be implemented by a user p
 - In many tools, `-` in place of a file name means “standard input” or “standard output”, depending on the argument.
 - The special argument `--` makes a program *stop* processing flags and options (things starting with `-`) in what follows, letting you pass things that look like flags without them being interpreted as such: `rm -- -r` or `ssh machine --for-ssh -- foo --for-foo`.
 
-### Hammerspoon (desltop automation on macOS)
+### Hammerspoon (desktop automation on macOS)
 
 [Hammerspoon](https://www.hammerspoon.org/) is a desktop automation framework for macOS. It lets us to write Lua scripts that hook into OS functionality, allowing us to interact with the keyboard/mouse, windows, displays, filesystem, and much more.
 
