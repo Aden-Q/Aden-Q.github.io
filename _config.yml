@@ -9,7 +9,7 @@ description: "Hi, I'm a backend developer. My interests lie broadly in technolog
 keywords:
 author: Lyrics
 language: en
-timezone: ''
+timezone: 'America/Chicago'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

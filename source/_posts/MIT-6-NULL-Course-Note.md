@@ -92,7 +92,7 @@ More complex tools like `tree`, `broot`, `nn`, `ranger` can be used to get an ov
 
 ### File Editing
 
-`sed`, `awk` are useful tools to edit files/input streams. Both have their own programming languages and can be used along with **regex**, a powerful tool for pattern matching. Even if we do not use shell, it's crucial to be familiar with regex for a developer.
+`sed`, `awk` are useful tools to edit files/input streams. Both have their own programming languages and can be used along with **regex**, a powerful tool for pattern matching. Even if we do not use shell, it's crucial to be familiar with regex as a developer.
 
 **Misc**
 
@@ -102,7 +102,7 @@ The `xargs` command can be used to execute a command using STDIN as arguments. W
 $ ls | xargs rm
 ```
 
-This command will delete the files in the current directory. Of course there is a better way to do the same thing. This is just an example for illustration purposes.
+This command will delete the files in the current directory. Of course there is a better way to do the same thing. This is just an example for some illustration purpose.
 
 ## Editors
 
@@ -114,7 +114,7 @@ I personally use **VSCode** for both my side projects and work. While it comes w
 
 **Killing a Process**
 
-The shell can use an inter-process communication mechanism called a *signal*. When a process receives a signal, it stops its execution, deals with the signal, and potentially changes the flow of execution based on the information that the signal delivered. For this reason, signal is also called *software interrupt*.
+The shell can use an inter-process communication mechanism called *signal*. When a process receives a signal, it stops its execution, deals with the signal, and potentially changes the flow of execution based on the information that the signal delivered. For this reason, signal is also called *software interrupt*.
 
 + `Ctrl-C`: sends a `SIGINT` signal to a process to stop its execution
 + `Ctrl-\`: sends a `SIGQUIT` signal to a process to quit the process
