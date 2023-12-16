@@ -161,6 +161,9 @@ theme_config:
     icon: github
     link: https://github.com/Aden-Q
   -
+    icon: twitter
+    link: https://twitter.com/ZechengQ
+  -
     icon: mastodon
     link: https://mastodon.social/@zecheng
   -
