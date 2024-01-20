@@ -9,7 +9,7 @@ description: "Hi, I'm a backend developer. My interests lie broadly in technolog
 keywords:
 author: Lyrics
 language: en
-timezone: ''
+timezone: 'America/Chicago'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -161,6 +161,9 @@ theme_config:
     icon: github
     link: https://github.com/Aden-Q
   -
+    icon: twitter
+    link: https://twitter.com/ZechengQ
+  -
     icon: mastodon
     link: https://mastodon.social/@zecheng
   -
@@ -176,7 +179,9 @@ theme_config:
     enabled: true
     shortname: lyrics-zc
 
-  highlight: atelier-forest-dark
+  # My choices: arta, atelier-cave-dark, atelier-cave-light, atelier-dune-light
+  # atelier-estuary-light, atelier-plateau-light
+  highlight: atelier-estuary-light
 
   # Customize the copyright years
   # Note: if start_year/end_year not provided, will use current year.
