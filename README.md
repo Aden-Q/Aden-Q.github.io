@@ -5,17 +5,17 @@ Powered by `Hexo`, `GitHub`, `PicGo`, and `Node.js`
 
 ### Create a new post
 ```bash
-$ hexo new "new post"
+$ hexo new "title"
 ```
 
 ### Create a new draft
 ```bash
-$ hexo new "new draft"
+$ hexo new draft "title"
 ```
 
 ### Publish a draft
 ```bash
-$ hexo publish "new draft"
+$ hexo publish "title"
 ```
 
 ### Generate static files
