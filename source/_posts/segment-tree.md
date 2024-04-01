@@ -3,7 +3,7 @@ title: Segment Tree
 tags:
   - Python
   - Algorithm
-date: 2023-03-31 22:00:00
+date: 2024-03-31 22:00:00
 categories:
 ---
 
