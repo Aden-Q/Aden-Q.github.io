@@ -3,5 +3,10 @@
        "name":"short-url",
        "url":"https://github.com/Aden-Q/short-url",
        "desc":"A fast, simple URL shortener written in Go"
-    }
+    },
+    {
+        "name":"monkey",
+        "url":"https://github.com/Aden-Q/monkey",
+        "desc":"An interpreted programming language written in Go"
+     }
 ]
