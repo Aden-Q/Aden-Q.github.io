@@ -6,7 +6,6 @@ date: 2023-12-11 21:00:00
 categories:
 ---
 
-
 ## Problem Statement
 
 In certain scenarios, a single task can be distributed among multiple workers, and the requirement is to await the completion of the task by the fastest worker. This technique is also called "replicated requests".
