@@ -34,6 +34,7 @@ jobs:
         with:
           path: ./public
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     permissions:
       pages: write
