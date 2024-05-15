@@ -9,7 +9,7 @@ date: 2024-05-15 16:00:00
 ---
 
 
-Monkey is an interpreted/scripting language written in Go, strictly following the design outlined in the book **Writing An Interpreter In Go** by Thorsten Ball. The architecture is extended with additional functionalities. The code is hosted on my [GitHub repo](https://github.com/Aden-Q/monkey/tree/main), and the project is still actively under development.
+Monkey is an interpreted/scripting language written in Go, strictly following the design outlined in the book *Writing An Interpreter In Go* by Thorsten Ball. The architecture is extended with additional functionalities. The code is hosted on my [GitHub repo](https://github.com/Aden-Q/monkey/tree/main), and the project is still actively under development.
 
 ---
 
