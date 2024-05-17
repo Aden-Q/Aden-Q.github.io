@@ -170,7 +170,7 @@ alice
 
 ### If
 
-The `if` statement is treated as an expression in Monkey, which means it can be assigned to an identifier like this:
+`if` is treated as an expression in Monkey, which means it can be bound to an identifier like this:
 
 ```bash
 >>> let x = if (true) { return true; }; 
