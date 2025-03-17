@@ -165,10 +165,10 @@ theme_config:
     link: https://twitter.com/ZechengQ
   -
     icon: mastodon
-    link: https://mastodon.social/@zecheng
+    link: https://mastodon.social/@aden_q
   -
     icon: mail
-    link: mailto:qian0102@umn.edu
+    link: mailto:qzc0512@gmail.com
 
   # Enable MathJax support for Latex
   mathjax:
