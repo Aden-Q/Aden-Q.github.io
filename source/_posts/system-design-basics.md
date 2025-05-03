@@ -40,12 +40,12 @@ Some notes taken when reading [hello interview](https://www.hellointerview.com).
   - [Distributed Cache](#distributed-cache)
   - [CDN](#cdn)
 - [Common Patterns](#common-patterns)
-  - [**Simple DB-backed CRUD service with caching**](#simple-db-backed-crud-service-with-caching)
-  - [**Async job worker pool**](#async-job-worker-pool)
-  - [**Two stage architecture**](#two-stage-architecture)
-  - [**Event-Driven Architecture**](#event-driven-architecture)
-  - [**Durable Job Processing**](#durable-job-processing)
-  - [**Proximity-Based Services**](#proximity-based-services)
+  - [Simple DB-backed CRUD service with caching](#simple-db-backed-crud-service-with-caching)
+  - [Async job worker pool](#async-job-worker-pool)
+  - [Two stage architecture](#two-stage-architecture)
+  - [Event-Driven Architecture](#event-driven-architecture)
+  - [Durable Job Processing](#durable-job-processing)
+  - [Proximity-Based Services](#proximity-based-services)
 - [Core Concepts (In Depth)](#core-concepts-in-depth)
   - [Networking Essentials](#networking-essentials)
   - [CAP Theorem](#cap-theorem)
@@ -512,35 +512,35 @@ Examples of CDNs
 
 ## Common Patterns
 
-### **Simple DB-backed CRUD service with caching**
+### Simple DB-backed CRUD service with caching
 
 ![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/image%209.png)
 
-### **Async job worker pool**
+### Async job worker pool
 
 If a system needs to handle a lot of processing and can tolerate some delay, you might consider an async job worker pool.
 
 ![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/image%2010.png)
 
-### **Two stage architecture**
+### Two stage architecture
 
 ![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/image%2011.png)
 
 In the first stage, we can use a fast algorithm. In the second stage, we can refine the results.
 
-### **Event-Driven Architecture**
+### Event-Driven Architecture
 
 EDA is a design pattern centered around events. EDA helps in building systems that are highly responsive, scalable, and loosely coupled.
 
 The core components of an EDA are event producers, event routers (or brokers), and event consumers.
 
-### **Durable Job Processing**
+### Durable Job Processing
 
 Checkpoint job progress to the log.
 
 ![](https://raw.githubusercontent.com/Aden-Q/blogImages/main/img/image%2012.png)
 
-### **Proximity-Based Services**
+### Proximity-Based Services
 
 Some systems may need geospatial indexes.
 
